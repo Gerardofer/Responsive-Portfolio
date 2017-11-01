@@ -1,0 +1,343 @@
+body {
+	margin: 0;
+	/*old wall background*/
+	background-image: url("../../old_wall/old_wall.png");
+
+
+}
+
+h3 {
+	font-size: 26px;
+	color: #4aaaa5;
+	margin-top: 0px;
+	padding: 20px;
+	border-bottom: 3px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	letter-spacing: 0;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+
+}
+
+label {
+	display: inline-block;
+	width: 70px;
+	margin-left: 55px;
+	padding-bottom: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+				 
+}
+
+input, textarea {
+	width: 550px;
+	box-sizing: border-box;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 55px;
+}
+textarea {
+	height: 200px;
+}
+
+input {
+	height: 30px;
+}
+
+form div + div {
+	margin-top: 20px;
+}
+
+button {
+	width: 115px;
+	padding: 10px;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: none;
+	cursor: pointer;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+button:hover {
+	background-color: #078279;
+	color: white;
+}
+
+i {
+	color: #898989;
+}
+
+.navBar {
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	width: 100%;
+	height: 70px;
+	margin-left: 0;
+	margin-right: 0;
+	overflow: auto;
+	position: relative;
+}
+
+.links {
+	position: absolute;
+	right: 140px;
+	top: 12px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.Bio {
+	background: #ffffff;
+	width: 618px;
+	margin-left: 170px;
+	border: 2px solid #cccccc;
+	margin-top: 45px;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.Contact {
+	background: #ffffff;
+	width: 618px;
+	margin-left: 170px;
+	border: 2px solid #cccccc;
+	margin-top: 45px;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.gallery {
+	background: #ffffff;
+	width: 618px;
+	margin-left: 170px;
+	border: 2px solid #cccccc;
+	margin-top: 45px;
+	padding: 30px;
+	letter-spacing: 2px;
+	overflow: auto;
+}
+
+.photo {
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 10px;
+	margin-right: 25px;
+}
+
+.photo:hover {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	opacity: 1;
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+  	box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
+
+.socialMedia {
+	background: #ffffff;
+	width: 258px;
+	height: 200px;
+	padding: 10px;
+	border: 2px solid #cccccc;
+	position: absolute;
+	right: 5%;
+	top: 117px;
+}
+
+.footer {
+	background: #777777;
+	color: #cccccc;
+	height: 65px;
+	border-top: 6px solid #4aaaa5;
+	margin-top: 45px;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	clear: both;
+}
+
+.icon {
+	float: left;
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	margin-left: 2px;
+}
+
+.button {
+	margin-left: 55px;
+}
+
+.images {
+	width: 44.5%;
+	padding: 15px;
+	float: left;
+}
+
+#Gerardo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 217px;
+	top: 398px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+#Amazonas {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 522px;
+	top: 398px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+#portrait {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 217px;
+	top: 635px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+#CTA {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 522px;
+	top: 635px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+#sounds {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 217px;
+	top: 872px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+
+}
+
+#about, #portfolio, #contact {
+	display: inline;
+	padding: 5px;
+	color: #cccccc;	
+}
+
+#about:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+#portfolio:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+#contact:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+#portfolio {
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+#myname {
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 170px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 4px 10px 16px 10px;
+	height: 51px;
+	text-align: center;
+	font-size: 26px;
+	position: absolute;
+	left: 170px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	letter-spacing: 2px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+#connect {
+	font-size: 25px;
+}
+
+#name, #email, #msg {
+	font-size: 17px;
+	color: #7c7676;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
