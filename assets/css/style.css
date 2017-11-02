@@ -103,7 +103,7 @@ i {
 	width: 618px;
 	margin-left: 170px;
 	border: 2px solid #cccccc;
-	margin-top: 45px;
+	margin-top: 3.1%;
 	padding: 30px;
 	letter-spacing: 2px;
 }
@@ -113,7 +113,7 @@ i {
 	width: 618px;
 	margin-left: 170px;
 	border: 2px solid #cccccc;
-	margin-top: 45px;
+	margin-top: 3.1%;
 	padding: 30px;
 	letter-spacing: 2px;
 }
@@ -123,7 +123,7 @@ i {
 	width: 618px;
 	margin-left: 170px;
 	border: 2px solid #cccccc;
-	margin-top: 45px;
+	margin-top: 3.1%;
 	padding: 30px;
 	letter-spacing: 2px;
 	overflow: auto;
@@ -155,7 +155,7 @@ i {
 	border: 2px solid #cccccc;
 	position: absolute;
 	right: 5%;
-	top: 117px;
+	top: 19%;
 }
 
 .footer {
@@ -331,13 +331,299 @@ i {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 980px) {
+
+	.Bio {
+		width: 45%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+		letter-spacing: 0;
+	}
+
+	#myname {
+		margin-left: -11%;
+		
+	}
+
+	.gallery {
+		width: 45%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+		letter-spacing: 0;
+	}
+
+	.images {
+		width: 94.5%;
+	}
+
+	.socialMedia {
+		right: 10%;
+		top: 21%;
+	}
+
+	#Gerardo {
+		width: 38.4%;
+		margin-left: -10.8%;
+		margin-top: 11%;
+	}
+
+	#Amazonas {
+		width: 38.4%;
+		left: 11.3%;
+		top: 146%;
+	}
+
+	#portrait {
+		width: 38.4%;
+		left: 11.3%;
+		top: 205%;
+
+	}
+
+	#CTA {
+		width: 38.4%;
+		left: 11.3%;
+		top: 263.5%;
+	}
+
+	#sounds{
+		width: 38.4%;
+		left: 11.3%;
+		top: 323%;
+	}
+
+	.Contact {
+		width: 45%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+	}
+
+	form {
+		margin-left: -6.5%;
+
+	}
+
+	input {
+		width: 90%;
+	}
+
+	textarea {
+		width: 90%;
+	}
 
 
+}
+
+@media screen and (max-width: 768px) {
+
+	.Bio {
+		width: 86.5%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+		padding: 5px;
+		letter-spacing: 0;
+	}
+
+	#myname {
+		left: 18.5%;
+		
+	}
+
+	.socialMedia {
+		width: 85%;
+		height: 170px;
+		position: relative;
+		margin-top: 3%;
+		margin-left: 16.5%;
 
 
+	}
+	.footer {
+		margin-top: 40%;
+		
+	}
 
+	.links {
+		position: absolute;
+		width: 80%;
+		left: 55%;
+	}
 
+	.gallery {
+		width: 80%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+		letter-spacing: 0;
+	}
 
+	.images {
+		width: 45%;
+	}
+
+	#Gerardo {
+		width: 30.7%;
+		left: 23.4%;
+		margin-top: -1%;
+	}
+
+	#Amazonas {
+		width: 30.8%;
+		left: 52.5%;
+		top: 67%;
+	}
+
+	#portrait {
+		width: 30.7%;
+		left: 12.6%;
+		top: 108%;
+
+	}
+
+	#CTA {
+		width: 30.8%;
+		left: 52.5%;
+		top: 108%;
+	}
+
+	#sounds{
+		width: 30.8%;
+		left: 12.6%;
+		top: 148.5%;
+	}
+
+	.Contact {
+		width: 80%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+	}
+
+	form {
+		margin-left: -6.5%;
+
+	}
+
+	input {
+		width: 90%;
+	}
+
+	textarea {
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.Bio {
+		width: 85.8%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+		padding: 5px;
+		letter-spacing: 0;
+	}
+
+	#myname {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 0;
+		height: 40px;
+		left: 0;
+		
+	}
+
+	.socialMedia {
+		width: 84.3%;	
+		height: 170px;
+		position: relative;
+		margin-left: 16.5%;
+		margin-top: 5%;
+	}
+	.footer {
+		margin-top: 293px;
+		
+	}
+
+	.links {
+		position: absolute;
+		width: 100%;
+		top: 55%;
+		left: 20%;
+	}
+	.navBar {
+		width: 140%;
+		height: 110px;
+		overflow: auto;
+	}
+
+	.gallery {
+		width: 87.4%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+		padding: 0;
+		letter-spacing: 0;
+	}
+
+	.images {
+		width: 94.5%;
+	}
+
+	#Gerardo {
+		width: 76%;
+		margin-left: -14%;
+		margin-top: 28%;
+	}
+
+	#Amazonas {
+		width: 76.3%;
+		left: 9.2%;
+		top: 173%;
+	}
+
+	#portrait {
+		width: 76.3%;
+		left: 9.2%;
+		top: 246.5%;
+
+	}
+
+	#CTA {
+		width: 76.3%;
+		left: 9.2%;
+		top: 320%;
+	}
+	#sounds{
+		width: 76.3%;
+		left: 9.2%;
+		top: 393.5%;
+	}
+
+	.Contact {
+		width: 78%;
+		margin-left: 6.5%;
+		margin-top: 5%;
+	}
+
+	form {
+		margin-left: -6.5%;
+
+	}
+
+	input {
+		width: 90%;
+	}
+
+	textarea {
+		width: 90%;
+	}
+
+	p {
+		margin: 5px;
+	}
+
+	.photo {
+		margin-right: 5px;
+	}
+
+}
 
 
 
